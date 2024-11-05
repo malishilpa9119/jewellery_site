@@ -1,0 +1,58 @@
+ .swiper {
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    padding-top: 10px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    background: #fff;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-slide img.hero1img {
+    border-radius: 50%;
+  }
+  .swiper {
+    width: 100%;
+    margin: auto;
+    
+  }
+  .carousel-container{
+    border: 1px solid goldenrod;
+    border-radius: 50%;
+    width: 150px !important;
+    height: 150px !important;
+  }
+  .mySwiper .swiper-button-next,
+  .mySwiper .swiper-button-prev {
+    font-size: none !important; 
+    color: goldenrod; 
+  }
+  .mySwiper {
+    width: 100%;
+    overflow-x: scroll;
+    -ms-overflow-style: none;  /* Hide scrollbar on Internet Explorer and Edge */
+    scrollbar-width: none;     /* Hide scrollbar on Firefox */
+  }
+  
+  .mySwiper::-webkit-scrollbar {
+    display: none;             /* Hide scrollbar on Chrome, Safari, and Opera */
+  }
+  @media only screen and (max-width:680px) {
+    .carousel-container{
+      width: 75px !important;
+      height: 75px !important;
+    }
+  }
+  

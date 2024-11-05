@@ -1,0 +1,38 @@
+.Contact-page{
+ box-sizing: border-box;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.contact-card-container{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.data-section{
+    color: #832729;
+}
+.card{
+    width: 310px;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 30px;
+    margin: 20px;
+    color: #832729;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card button{
+    width: 100px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    color: #832729;
+    border: none;
+    background-color: #F6E7E4;
+
+}
+.contact-img{
+   font-size: 80px;
+   color: #F6E7E4;
+}
