@@ -11,6 +11,8 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import img1 from '../Assets/hero2.3.webp'
 import img2 from '../Assets/hero2.2.webp'
 import img3 from '../Assets/hero_2.1.webp'
+import img4 from '../Assets/Chandi Payal.jpg'
+import img5 from '../Assets/Indian Bridal Makeup Videos.jpg'
 
 const Myhero2 = () => {
   return (
@@ -29,11 +31,11 @@ const Myhero2 = () => {
       modules={[Autoplay, Pagination, Navigation]}
       className="mySwiper"
     >
-      <SwiperSlide> <img src={img1} alt="" /> </SwiperSlide>
-      <SwiperSlide><img src={img2} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={img3} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={img1} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={img1} alt="" /></SwiperSlide>
+      <SwiperSlide> <img className='imghero' src={img4} alt="" /> </SwiperSlide>
+      <SwiperSlide><img className='imghero' src={img5} alt="" /></SwiperSlide>
+      <SwiperSlide><img className='imghero' src={img1} alt="" /></SwiperSlide>
+      <SwiperSlide><img className='imghero' src={img2} alt="" /></SwiperSlide>
+      <SwiperSlide><img className='imghero' src={img3} alt="" /></SwiperSlide>
     </Swiper>
   </>
   )

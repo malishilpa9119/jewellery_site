@@ -46,15 +46,15 @@ const Photogallery = () => {
       modules={[Pagination]}
       className="mySwiper"
     >
-      <SwiperSlide><img src={img1} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={img2} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={img3} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={img4} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={img5} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={img6} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={img7} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={img8} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={img9} alt="" /></SwiperSlide>
+      <SwiperSlide><img src={img1} alt="img1" /></SwiperSlide>
+      <SwiperSlide><img src={img2} alt="img2" /></SwiperSlide>
+      <SwiperSlide><img src={img3} alt="img3" /></SwiperSlide>
+      <SwiperSlide><img src={img4} alt="img4" /></SwiperSlide>
+      <SwiperSlide><img src={img5} alt="img5" /></SwiperSlide>
+      <SwiperSlide><img src={img6} alt="img6" /></SwiperSlide>
+      <SwiperSlide><img src={img7} alt="img7" /></SwiperSlide>
+      <SwiperSlide><img src={img8} alt="img8" /></SwiperSlide>
+      <SwiperSlide><img src={img9} alt="img9" /></SwiperSlide>
     </Swiper>
     </div>
   </>

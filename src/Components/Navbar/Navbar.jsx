@@ -9,6 +9,7 @@ import Photogallery from "../Photogallery/Photogallery";
 import Contact from "../Contact/Contact";
 import { TfiMenu } from "react-icons/tfi";
 import { RxCross2 } from "react-icons/rx";
+import Footer from "../Footer/Footer";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -93,6 +94,9 @@ const Navbar = () => {
       </div>
       <div id="photogallery">
         <Photogallery />
+      </div>
+      <div id="Footer">
+        <Footer />
       </div>
     </>
   );
