@@ -32,7 +32,7 @@ const Myhero = () => {
         loop={true}                // Enable looping for continuous scroll effect
         grabCursor={true}
         modules={[FreeMode]}
-        className="mySwiper"
+        className="mySwiper hero1"
       >
         <SwiperSlide> <div className='carousel-container'> <img className='hero1img' src={img1} alt="" /> </div> </SwiperSlide>
         <SwiperSlide><div className='carousel-container'> <img className='hero1img' src={img2} alt="" /> </div></SwiperSlide>
